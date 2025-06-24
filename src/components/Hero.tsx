@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-primary shadow-md">
         <Image
           src="/avatar.jpg" // ⚠️ Reemplaza con la ruta correcta de tu imagen
-          alt="Avatar de Yamir"
+          alt="Avatar"
           fill
           className="object-cover"
           priority
