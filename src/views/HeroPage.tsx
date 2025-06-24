@@ -2,15 +2,15 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Button } from './ui/button';
+import { Button } from '../components/ui/button';
 
-export default function Hero() {
+export default function HeroPage() {
   return (
     <section className="w-full py-20 flex flex-col items-center text-center sm:py-32">
       {/* Imagen/avatar */}
       <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-primary shadow-md">
         <Image
-          src="/avatar.jpg" // ⚠️ Reemplaza con la ruta correcta de tu imagen
+          src="/avatar.jpg" 
           alt="Avatar"
           fill
           className="object-cover"
