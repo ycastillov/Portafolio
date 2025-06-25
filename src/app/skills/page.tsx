@@ -1,8 +1,5 @@
-import SkillsPage from "@/views/SkillsPage";
-
+import SkillsPage from '@/views/SkillsPage';
 
 export default function Skills() {
-    return (
-        <SkillsPage />
-    )
+  return <SkillsPage />;
 }

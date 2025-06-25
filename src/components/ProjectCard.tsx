@@ -1,17 +1,16 @@
-
-import Image from 'next/image'
-import { Badge } from './ui/badge'
-import Link from 'next/link'
-import { Button } from './ui/button'
+import Image from 'next/image';
+import { Badge } from './ui/badge';
+import Link from 'next/link';
+import { Button } from './ui/button';
 
 type ProjectCardProps = {
-    title: string
-    description: string
-    imageSrc: string
-    tech: string[]
-    demoUrl?: string
-    codeUrl?: string
-}
+  title: string;
+  description: string;
+  imageSrc: string;
+  tech: string[];
+  demoUrl?: string;
+  codeUrl?: string;
+};
 
 export default function ProjectCard({
   title,
@@ -21,8 +20,8 @@ export default function ProjectCard({
   demoUrl,
   codeUrl,
 }: ProjectCardProps) {
-    return(
-        <div className="border rounded-xl shadow-sm overflow-hidden flex flex-col">
+  return (
+    <div className="border rounded-xl shadow-sm overflow-hidden flex flex-col">
       {/* Imagen del proyecto */}
       <div className="relative w-full h-56 bg-muted">
         <Image
@@ -64,5 +63,5 @@ export default function ProjectCard({
         </div>
       </div>
     </div>
-    )
+  );
 }

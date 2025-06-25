@@ -10,7 +10,7 @@ export default function HeroPage() {
       {/* Imagen/avatar */}
       <div className="relative w-48 h-48 mb-6 rounded-full overflow-hidden border-4 border-primary shadow-md">
         <Image
-          src="/avatar.jpg" 
+          src="/avatar.jpg"
           alt="Avatar"
           fill
           className="object-cover"
